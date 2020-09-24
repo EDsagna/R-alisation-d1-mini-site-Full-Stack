@@ -1,0 +1,140 @@
+body {
+    border-top: 10px solid #473270 ;
+    background-color: wheat;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+   max-width: 1000px;
+   margin: 0 auto;
+   overflow: hidden;/*mintenir le contenu sur la meme marge*/
+   background-color: #63703D;
+
+}
+
+li {
+    display: inline;
+    margin: 30px;
+    text-align: center;
+    list-style-type: none;
+    border: black;
+}
+
+.logoinput {
+    margin-top: 50px;  
+    
+}
+
+.img{
+    margin-top: 150px;
+    margin-right: 350px;
+    width: 400px;
+}
+
+.accueil {
+margin:auto;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #4A3174;
+}
+
+.connecter {
+    margin-left: 310px;
+    color: #9D9D9D;
+}
+ 
+.inscrire {
+    margin-left: 16px;
+    position: absolute;
+    width: 163px;
+    height: 40px;
+    background: #4A3174;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.recherche{
+    color: #9D9D9D;
+   
+}
+
+.propos {
+
+    color: #9D9D9D;
+}
+
+.GO {
+    
+width: 63px;
+height: 40px;
+background: #4A3174;
+border-radius: 0px 3px 3px 0px;
+border: none;
+color: white;
+}
+
+input {
+    width: 141px;
+height: 40px;
+margin-left: 32px;
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+border-radius: 3px;
+border: none;
+}
+
+.petit {
+    margin-top:100px;
+}
+
+.recomandation {
+    width: 1000px;
+    padding: 30px;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns:300px 300px 300px;
+    background-color: white;
+   
+}
+
+.auteur {
+    color: #9D9D9D;
+    font-size: 16px;
+    padding: 30px;
+}
+article {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+
+}
+
+.prix {
+    font-weight: bold;
+font-size: 16px;
+font-style: normal;
+line-height: 19px;
+/* identical to box height */
+color: #4A3174;
+opacity: 0.42;
+}
+
+h1 {
+font-style: normal;
+font-weight: bold;
+margin-top: 220px;
+font-size: 34px;
+color: #4A3174;
+
+}
+.moin-chere {
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px ;
+    padding: 100px;
+    
+
+}
